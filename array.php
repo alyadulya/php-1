@@ -23,8 +23,8 @@
         $kids = array("Mike", "Dustin", "Will", "Lucas", "Max", "Eleven"); // Lengkapi di sini
         $adults = array("Hopper", "Nancy", "Joyce", "Jonathan", "Murray");
 
-        echo "Kids : " . $kids[0] . ", " . $kids[1] . ", " . $kids[2] . ", " . $kids[3] . ", " . $kids[4] . ", " . $kids[5] . "<br>";
-        echo "Adults : " . $adults[0] . ", " . $adults[1] . ", " . $adults[2] . ", " . $adults[3] . ", " . $adults[4] . "<br>";
+        print_r($kids); echo "<br>";
+        print_r($adults); echo "<br>";
 
         echo "<h3> Soal 2</h3>";
         /* 
@@ -93,12 +93,7 @@
 	    	array("Name"=>"Eleven", "Age"=>12, "Aliases"=>"El", "Status"=>"Alive")
 	    );
 
-	    foreach($casts as $cast) {
-	    	echo "Name: \"" . $cast["Name"] . "\"<br>";
-	    	echo "Age: " . $cast["Age"] . "<br>";
-	    	echo "Aliases: \"" . $cast["Aliases"] . "\"<br>";
-	    	echo "Status: \"" . $cast["Status"] . "\"<br><br>";
-	    }
+	    print_r($casts);
     ?>
 </body>
 </html>
